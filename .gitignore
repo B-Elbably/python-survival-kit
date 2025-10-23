@@ -67,3 +67,5 @@ env/
 
 
 .prettierrc
+/strings/
+/data-structures/
