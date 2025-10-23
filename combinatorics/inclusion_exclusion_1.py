@@ -1,8 +1,8 @@
 """
-    # For 3 sets:
-    |A ∪ B ∪ C| = |A| + |B| + |C|
-                - |A ∩ B| - |A ∩ C| - |B ∩ C|
-                + |A ∩ B ∩ C|
+# For 3 sets:
+|A ∪ B ∪ C| = |A| + |B| + |C|
+            - |A ∩ B| - |A ∩ C| - |B ∩ C|
+            + |A ∩ B ∩ C|
 """
 
 """
@@ -15,7 +15,7 @@
 
 
 # 2- https://cses.fi/problemset/task/2185 (important)
-def inclusion_exclusion(n, a): # O(2^k * k)
+def inclusion_exclusion(n, a):  # O(2^k * k)
     """
     a (list[int]): list of divisors
 

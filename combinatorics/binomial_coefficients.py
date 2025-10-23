@@ -43,7 +43,7 @@ def prepare(p: int):
 
 
 # p is 1e9+7 (default) or other prime
-prepare(10**9 + 7) 
+prepare(10**9 + 7)
 """
     # build O(n) take long time
     # query O(1) for a fast query

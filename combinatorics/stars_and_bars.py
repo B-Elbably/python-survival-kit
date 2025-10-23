@@ -1,5 +1,7 @@
 from combinatorics.binomial_coefficients import comb
+
 # Queries O(1)
+
 
 def stars_bars_nonnegative(n, k):
     """Number of non-negative solutions to x1 + ... + xk = n"""

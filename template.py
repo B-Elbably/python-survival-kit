@@ -92,3 +92,11 @@ MOD = 10**9 + 7
 inf = float("inf")
 
 # for _ in range(II()):
+
+
+"""
+    Don't use it without 3 months of practice.
+    Trust me, you will regret it.
+    اسمع الكلام
+"""
+
