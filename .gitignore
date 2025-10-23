@@ -1,3 +1,8 @@
+.prettierrc
+
+/strings/
+/data-structures/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -66,7 +71,3 @@ env/
 .ipynb_checkpoints
 
 
-.prettierrc
-
-/strings/
-/data-structures/
