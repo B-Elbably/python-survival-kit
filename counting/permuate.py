@@ -1,4 +1,4 @@
-from combinatorics.binomial_coefficients import fac, inv
+from counting.binomial_coefficients import fac, inv
 
 
 def perm(n, r):  # O(1)

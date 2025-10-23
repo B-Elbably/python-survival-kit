@@ -1,4 +1,4 @@
-from combinatorics.binomial_coefficients import comb
+from counting.binomial_coefficients import comb
 
 # Queries O(1)
 

@@ -1,7 +1,7 @@
 # a⁻¹ ≡ a^(m-2) (mod m)
 
 # use fast exponentiation (binary exponentiation)
-from combinatorics.binomial_coefficients import exp
+from counting.binomial_coefficients import exp
 
 
 def mod_inv_1(a, m):  # O(log m)

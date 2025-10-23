@@ -1,4 +1,4 @@
-from combinatorics.binomial_coefficients import comb, exp
+from counting.binomial_coefficients import comb, exp
 
 
 def catalan(n, p):  # O(1)

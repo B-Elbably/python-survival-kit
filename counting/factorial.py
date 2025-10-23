@@ -1,4 +1,4 @@
-from combinatorics.binomial_coefficients import fac
+from counting.binomial_coefficients import fac
 
 
 def factorial(n):  # O(1)
