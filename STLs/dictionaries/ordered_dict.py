@@ -1,18 +1,20 @@
 """
-    3- orderedDict
-    The order of keys is preserved as inserted (Python 3.6+ dict also does this natively)
-    Has some extra methods like move_to_end() , popitem()
-    More Memory consumption than normal dict
-""" 
+3- orderedDict
+The order of keys is preserved as inserted (Python 3.6+ dict also does this natively)
+Has some extra methods like move_to_end() , popitem()
+More Memory consumption than normal dict
+"""
+
 print(" <==== OrderedDict ====> ")
 from collections import OrderedDict
+
 data = OrderedDict()
 od = OrderedDict()
-od['y'] = 2  
-od['z'] = 1
-od['x'] = 3
-od['a'] = 4
-od['d'] = 5
+od["y"] = 2
+od["z"] = 1
+od["x"] = 3
+od["a"] = 4
+od["d"] = 5
 
 # print("OrderedDict:", od)
 # OrderedDict([('y', 2), ('z', 1), ('x', 3)])
@@ -21,9 +23,9 @@ for key, value in od.items():
     print(f"{key}: {value}")
 
 # Move 'b' to end
-od.move_to_end('z')
+od.move_to_end("z")
 # Move 'a' to beginning
-od.move_to_end('a', last=False)
+od.move_to_end("a", last=False)
 
 print("\nAfter moving items:\n")
 for key, value in od.items():
@@ -40,7 +42,6 @@ print("last:", last)
 print("\nAfter popping items:\n")
 for key, value in od.items():
     print(f"{key}: {value}")
-    
-    
-    
+
+
 # Search about LRU Cache using OrderedDict

@@ -1,6 +1,6 @@
-# NOTE: Dont name file as queue.py 
+# NOTE: Dont name file as queue.py
 
-# 1- Use module 
+# 1- Use module
 from queue import LifoQueue
 
 stack = LifoQueue(maxsize=3)
@@ -15,9 +15,9 @@ try:
 except:
     print("Stack is full! Can't add 25")
 
-print("Get:", stack.get())           # 15 (removes and returns)
+print("Get:", stack.get())  # 15 (removes and returns)
 print("Get nowait:", stack.get_nowait())  # 20
-print("Get:", stack.get())           # 10
+print("Get:", stack.get())  # 10
 
 # stack.get()  # ⚠️ This will wait forever!
 
@@ -27,11 +27,10 @@ except:
     print("Stack is empty!")
 
 
-
 # 2- Use List (Recommend)
 stack = []
 stack.append(10)
 stack.append(20)
 print("Stack after pushes:", stack)
-top = stack.pop() # remove & return at the same time
+top = stack.pop()  # remove & return at the same time
 print("Stack after pop:", stack)

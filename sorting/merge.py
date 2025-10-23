@@ -7,10 +7,13 @@ def merge_sort(arr):
     left_half = merge_sort(arr[:mid])
     right_half = merge_sort(arr[mid:])
     return merge(left_half, right_half)
-    
+
+
 def merge(left, right):
-    if len(left) == 0: return right
-    if len(right) == 0: return left
+    if len(left) == 0:
+        return right
+    if len(right) == 0:
+        return left
 
     merged = []
     i = j = 0

@@ -1,14 +1,15 @@
 """
-    1- simple dict
+1- simple dict
 """
+
 print(" <==== Simple Dict ====> ")
 
-data = {} # dict not a set
+data = {}  # dict not a set
 data["name"] = "Belal"
 data["age"] = 20
 
 # ========================
-print(data) # all items 
+print(data)  # all items
 print(data["name"])
 print(data["age"])
 # print(data["technology"]) # KeyError (Key not found)
@@ -18,8 +19,9 @@ if "technology" in data:
     print(data["technology"])
 
 # use get
-print(data.get("technology" , "default"))
+print(data.get("technology", "default"))
 
 
-
-
+"""
+    Search about collision
+"""

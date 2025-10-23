@@ -1,6 +1,7 @@
 """
-    Memory Usage Comparison
+Memory Usage Comparison
 """
+
 from collections import defaultdict, OrderedDict
 import sys
 
