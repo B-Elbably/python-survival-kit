@@ -45,3 +45,13 @@ try:
         data = f.read()
 except FileNotFoundError:
     print("File not found!")
+
+
+# Take input from file and output to file
+print("\n<==== Input/Output Redirection ===>")
+def MakeFile(s: str, r="in", v="out"):
+    import sys
+    sys.stdin = open(f"{s}.{r}", "r")
+    sys.stdout = open(f"{r}.{v}", "w")
+
+MakeFile("example", "txt", "txt")
