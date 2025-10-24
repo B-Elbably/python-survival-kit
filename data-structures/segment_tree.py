@@ -1,3 +1,10 @@
+"""
+    Solve : 
+    https://cses.fi/problemset/task/1648
+    https://cses.fi/problemset/task/1649
+    
+    EDU: https://codeforces.com/edu/course/2/lesson/4
+"""
 import sys
 
 sys.setrecursionlimit(200000)
